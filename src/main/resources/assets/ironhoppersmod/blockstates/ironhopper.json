@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "facing=down": {
+            "model": "ironhoppersmod:block/ironhopper"
+        },
+        "facing=east": {
+            "model": "ironhoppersmod:block/ironhopper_side",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "ironhoppersmod:block/ironhopper_side"
+        },
+        "facing=south": {
+            "model": "ironhoppersmod:block/ironhopper_side",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "ironhoppersmod:block/ironhopper_side",
+            "y": 270
+        }
+    }
+}

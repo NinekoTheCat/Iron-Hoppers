@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ironhoppersmod",
+  "version": "${version}",
+  "name": "Iron Hoppers Mod",
+  "description": "Adds an instant iron hopper",
+  "authors": [
+    "NikoTheNya"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ironhoppersmod/textures/item/ironhopper.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ninekothecat.ironhoppersmod.client.IronHoppersModClient"
+    ],
+    "main": [
+      "ninekothecat.ironhoppersmod.IronHoppersMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.1",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
